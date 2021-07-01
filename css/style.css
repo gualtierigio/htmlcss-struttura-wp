@@ -4,38 +4,47 @@
     box-sizing: border-box;
 }
 
-body{
+.padding-page{
     padding: 20px 100px;
 }
 
-body > header{
+.bg-color-pink{
     background-color: rgb(222, 32, 240);
+}
+
+.bg-color-yellow{
+    background-color: rgb(221, 221, 107);
+}
+
+.bg-color-skyblue{
+    background-color: rgb(84, 164, 240);
+}
+
+.bg-color-blue{
+    background-color: rgb(70, 46, 173);
+}
+
+.top-header{
     height: 150px;
     width: 100%;
     margin-bottom: 30px;
 }
 
-main section:first-child{
-    background-color: rgb(221, 221, 107);
+.jumbo{
     height: 400px;
     width: 100%;
     margin-bottom: 30px;
 }
 
-section > header{
-    background-color: rgb(84, 164, 240);
+.articles-header{
     height: 100px;
     width: 100%;
 }
 
-div#container.clearfix{
-    background-color: rgb(70, 46, 173);
+div.container.clearfix{
     height: 600px;
     width: 100%;
     margin-bottom: 10px;
-}
-
-#container{
     padding: 20px 0;
 }
 
@@ -46,7 +55,6 @@ div#container.clearfix{
 }
 
 .aside-article{
-    background-color: rgb(84, 164, 240);
     height: 100%;
     width: calc(35% / 2);
 }
@@ -55,7 +63,7 @@ div#container.clearfix{
     float: left;
 }
 
-#middle-article{
+.middle-article{
     background-color: rgb(84, 164, 240);
     height: 100%;
     margin: 0 25px;
