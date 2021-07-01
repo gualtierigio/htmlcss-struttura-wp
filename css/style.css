@@ -35,19 +35,32 @@ div#container.clearfix{
     margin-bottom: 10px;
 }
 
-.aside-article{
-    
+#container{
+    padding: 20px 0;
 }
 
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
 
+.aside-article{
+    background-color: rgb(84, 164, 240);
+    height: 100%;
+    width: calc(35% / 2);
+}
 
+.float-left{
+    float: left;
+}
 
-
-
-
-
-
-
+#middle-article{
+    background-color: rgb(84, 164, 240);
+    height: 100%;
+    margin: 0 25px;
+    width: calc(65% - 50px);
+}
 
 footer{
     background-color: rgb(123, 40, 131);
