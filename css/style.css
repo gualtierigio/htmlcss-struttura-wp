@@ -12,4 +12,45 @@ body > header{
     background-color: rgb(222, 32, 240);
     height: 150px;
     width: 100%;
+    margin-bottom: 30px;
+}
+
+main section:first-child{
+    background-color: rgb(221, 221, 107);
+    height: 400px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+section > header{
+    background-color: rgb(84, 164, 240);
+    height: 100px;
+    width: 100%;
+}
+
+div#container.clearfix{
+    background-color: rgb(70, 46, 173);
+    height: 600px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.aside-article{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: rgb(123, 40, 131);
+    height: 60px;
+    width: 100%;
 }
