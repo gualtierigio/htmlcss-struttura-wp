@@ -64,7 +64,6 @@ div.container.clearfix{
 }
 
 .middle-article{
-    background-color: rgb(84, 164, 240);
     height: 100%;
     margin: 0 25px;
     width: calc(65% - 50px);
