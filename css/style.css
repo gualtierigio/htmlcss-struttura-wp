@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 20px 100px;
+}
+
+body > header{
+    background-color: rgb(222, 32, 240);
+    height: 150px;
+    width: 100%;
+}
