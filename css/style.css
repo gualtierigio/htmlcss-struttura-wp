@@ -48,7 +48,7 @@ div.container.clearfix{
     padding: 20px 0;
 }
 
-.clearfix{
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
@@ -72,5 +72,4 @@ div.container.clearfix{
 footer{
     background-color: rgb(123, 40, 131);
     height: 60px;
-    width: 100%;
 }
